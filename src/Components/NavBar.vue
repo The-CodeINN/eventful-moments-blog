@@ -46,12 +46,12 @@ export default {
     <div class="w-full flex">
       <!-- Logo -->
       <div class="w-full flex items-center cursor-pointer">
-        <span class="font-bold italic mx-9">Eventful Moments.</span>
+        <router-link to="/" class="font-bold italic mx-9">Eventful Moments.</router-link>
       </div>
 
       <!-- Links -->
       <div class="flex justify-end w-full">
-        <router-link to="/login" class="text-white hover:text-gray-300 mx-3"
+        <router-link to="/" class="text-white hover:text-gray-300 mx-3"
           >Login</router-link
         >
         <router-link to="/register" class="text-white hover:text-gray-300 mx-3"
