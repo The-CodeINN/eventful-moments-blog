@@ -5,7 +5,7 @@
     <div class="w-full flex">
       <!-- Logo -->
       <div class="w-full flex items-center cursor-pointer">
-        <router-link to="/" class="font-bold italic mx-9">Eventful Moments.</router-link>
+        <router-link to="/blog" class="font-bold italic mx-9">Eventful Moments.</router-link>
       </div>
 
       <!-- Links -->
